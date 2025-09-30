@@ -1,33 +1,54 @@
+<!--  -->
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Portifólio</title>
 </head>
 <body>
     <header>
-        <a href="">Mais</a>
-        <a href="#cont">Contatos</a>
+        <a href="#contatos">Contatos</a>
     </header>
+
     <main>
-        <h1>Thauane da Silva</h1>
+        <h1>Thauane da Silva</h1> <!-- primeiro titulo (nome) -->
 
-        <div id="Sobre mim">
-        <img src="" alt="">
-        <h2>Sobre</h2> 
-        <p>Nascida no bairro Casa Verde, sou estudante na área tecnológica, onde já cursei Suporte em TI, e curso Desenvolvimento Web e Eletrônica. Consigo desenvolver sites com HTML, CSS e JS, projetos básicos de sistemas elétricos, C++ e robótica, além de identificar problemas em computadores e resolvê-los. Busco crescer na área de programação e redes, mas também busco sempre estar estudando literatura e gramática como um hobbie.</p>
-        </div>
+        <section class="sobre"> <!-- div do sobre mim -->
+            <div class="isobre">
+                <img id="imgsobre" src="img/WhatsApp Image 2025-09-29 at 09.46.14.jpeg" alt="imgsobre"> <!-- imagem do sobre mim -->
+            </div>
+            <div class="hpsobre">
+                <h2 id="hsobre">Sobre</h2> <!-- segundo tiulo (sobre mim) -->
+                <p id="psobre">Nascida no bairro Casa Verde, sou estudante na área tecnológica, onde já cursei Suporte em TI, e curso Desenvolvimento Web e Eletrônica. Consigo desenvolver sites com HTML, CSS e JS, projetos básicos de sistemas elétricos, C++ e robótica, além de identificar problemas em computadores e resolvê-los. Busco crescer na área de programação e redes, mas também busco sempre estar estudando literatura e gramática como um hobbie.</p> <!-- texto do sobre mim -->
+            </div>
         
-        <div id="Projetos">
-            <h2>Projetos</h2>
-            <img src="" alt="">
-            <p>O primeiro grande projeto em dupla feito no curso de Desenvolvimento Web, onde simulamos ser uma empresa de consultoria, na qual melhoramos ou criamos um site mais prático e bonito. Pensando nisso, eu e minha dupla resolvemos, com os conhecimentos básicos em HTML e inicial de CSS, melhorar o site da Boticário.</p>
+        
+        </section>
+        
+        <h2 id="hprojeto">Projetos</h2> <!-- segundo título (projetos) -->
 
-            <img src="" alt="">
-            <p>Este é o segundo grande trabalho do curso vinculado ao ensino médio de eletrônica, onde fizemos um robô para uma batalha, que ganha aquele quem estourar a bexiga primeiro, ou tirar o adversário da arena. O trabalho foi feito em grupos de 3 à 5 pessoas, na qual apresentamos para, nossa escola, Etec Albert Einstein, e outras escolas técnicas.</p>
-        </div>
+        
+        <section class="projetos1">  <!-- seção da parte 1 do projetos  -->
+            <div class="iprojeto1"> <!-- caixa para imagem da parte 1 do projetos -->
+                <img id="imgprojeto1" src="img/WhatsApp Image 2025-09-29 at 09.46.14.jpeg" alt=""> <!-- imagem da parte 1 do projetos -->
+            </div>
+            <div class="tprojeto1"> <!-- caixa para o paragrafo da parte 1 do projetos -->
+            <p id="prgprojeto1">O primeiro grande projeto em dupla feito no curso de Desenvolvimento Web, onde simulamos ser uma empresa de consultoria, na qual melhoramos ou criamos um site mais prático e bonito. Pensando nisso, eu e minha dupla resolvemos, com os conhecimentos básicos em HTML e inicial de CSS, melhorar o site da Boticário.</p> <!-- paragrafo da parte 1 do projetos -->
+            </div>
+        </section>
+
+        <section class="projetos2"> <!-- seção da parte 2 do projetos -->
+            <div class="tprojeto2">
+                <p id="prgprojeto2">Este é o segundo grande trabalho do curso vinculado ao ensino médio de eletrônica, onde fizemos um robô para uma batalha, que ganha aquele quem estourar a bexiga primeiro, ou tirar o adversário da arena. O trabalho foi feito em grupos de 3 à 5 pessoas, na qual apresentamos para, nossa escola, Etec Albert Einstein, e outras escolas técnicas.</p>
+            </div>
+            <div class="iprojeto2">
+                <img id="imgprojeto2" src="img/WhatsApp Image 2025-09-29 at 09.46.14.jpeg" alt="">
+            </div>
+        </section>
+        
         
 
         <div id="habilidades">
@@ -39,7 +60,7 @@
     </main>
 
     <footer>
-        <h2 id="cont">Contatos:</h2>
+        <h2 id="contatos">Contatos:</h2>
         <p> Número: (11) 98535-3132 <br>
             Email: thauanedasilva027@ <br>
             LinkedIn: https://www.linkedin.com/in/thauane-silva-075937384/ <br>
